@@ -33,6 +33,10 @@ func main() {
 		runit(3, day3_2)
 	case "4":
 		runit(4, day4_1)
+		runit(4, day4_2)
+	case "5":
+		runit(5, day5_1)
+		runit(5, day5_2)
 	default:
 		fmt.Println("bleh")
 	}
